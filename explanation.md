@@ -11,13 +11,13 @@ Atoms in a crystal lattice interact with each other through forces that can be d
 
 - **Lennard-Jones Potential:**
 <p align="center">
-  <img src="https://github.com/Rishit-katiyar/crystal_lattice_simulation/assets/167756997/17f064ed-90c7-4077-83b0-26f4fa0281f2" alt="Simulation Screenshot">
+  <img src="https://github.com/Rishit-katiyar/crystal_lattice_simulation/assets/167756997/17f064ed-90c7-4077-83b0-26f4fa0281f2" alt="Screenshot" width="600">
 </p>
 
 - **Force Calculation:**
   The force \( F(r) \) between two atoms is the negative gradient of the potential:
 <p align="center">
-  <img src="https://github.com/Rishit-katiyar/crystal_lattice_simulation/assets/167756997/8ee545a8-d54f-4684-a69b-f9ebed8fae9a" alt="Screenshot">
+  <img src="https://github.com/Rishit-katiyar/crystal_lattice_simulation/assets/167756997/8ee545a8-d54f-4684-a69b-f9ebed8fae9a" alt="Screenshot" width="600">
 </p>
 
 #### 3. Vibration Simulation
@@ -25,7 +25,7 @@ The positions of atoms are updated over time to simulate vibrations using numeri
 
 - **Verlet Integration:**
 <p align="center">
-  <img src="https://github.com/Rishit-katiyar/crystal_lattice_simulation/assets/167756997/527d327f-6681-4ebe-b10b-b4dbad51e86e" alt="Screenshot">
+  <img src="https://github.com/Rishit-katiyar/crystal_lattice_simulation/assets/167756997/527d327f-6681-4ebe-b10b-b4dbad51e86e" alt="Screenshot" width="600">
 </p>
 
 #### 4. Thermal Motion
@@ -33,7 +33,7 @@ Thermal motion represents the random motion of atoms due to thermal energy, whic
 
 - **Equipartition Theorem:**
 <p align="center">
-  <img src="https://github.com/Rishit-katiyar/crystal_lattice_simulation/assets/167756997/1ce88d80-f99c-434d-806b-68dd9f320955" alt="Screenshot">
+  <img src="https://github.com/Rishit-katiyar/crystal_lattice_simulation/assets/167756997/1ce88d80-f99c-434d-806b-68dd9f320955" alt="Screenshot" width="600">
 </p>
 
 
