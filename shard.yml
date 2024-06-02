@@ -1,0 +1,4 @@
+dependencies:
+  crsfml:
+    github: oprypin/crsfml
+    version: "~> 2.5"
