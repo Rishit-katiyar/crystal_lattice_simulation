@@ -10,40 +10,32 @@ A crystal lattice is a three-dimensional arrangement of atoms or molecules in a 
 Atoms in a crystal lattice interact with each other through forces that can be described using potential energy functions. One common potential is the Lennard-Jones potential, which models the interaction between a pair of neutral atoms or molecules.
 
 - **Lennard-Jones Potential:**
-  \[
-  V(r) = 4\epsilon \left[ \left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^{6} \right]
-  \]
-  where:
-  - \( r \) is the distance between two atoms.
-  - \( \epsilon \) is the depth of the potential well.
-  - \( \sigma \) is the distance at which the potential is zero.
+<p align="center">
+  <img src="https://github.com/Rishit-katiyar/crystal_lattice_simulation/assets/167756997/17f064ed-90c7-4077-83b0-26f4fa0281f2" alt="Simulation Screenshot">
+</p>
 
 - **Force Calculation:**
   The force \( F(r) \) between two atoms is the negative gradient of the potential:
-  \[
-  F(r) = -\frac{dV(r)}{dr} = 24\epsilon \left[ 2 \left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^{6} \right] \frac{1}{r}
-  \]
+<p align="center">
+  <img src="https://github.com/Rishit-katiyar/crystal_lattice_simulation/assets/167756997/8ee545a8-d54f-4684-a69b-f9ebed8fae9a" alt="Screenshot">
+</p>
 
 #### 3. Vibration Simulation
 The positions of atoms are updated over time to simulate vibrations using numerical integration methods. Verlet integration is a common choice due to its simplicity and stability.
 
 - **Verlet Integration:**
-  \[
-  \mathbf{r}(t + \Delta t) = 2\mathbf{r}(t) - \mathbf{r}(t - \Delta t) + \mathbf{a}(t) \Delta t^2
-  \]
-  where:
-  - \( \mathbf{r}(t) \) is the position at time \( t \).
-  - \( \mathbf{a}(t) \) is the acceleration (force/mass) at time \( t \).
+<p align="center">
+  <img src="https://github.com/Rishit-katiyar/crystal_lattice_simulation/assets/167756997/527d327f-6681-4ebe-b10b-b4dbad51e86e" alt="Screenshot">
+</p>
 
 #### 4. Thermal Motion
 Thermal motion represents the random motion of atoms due to thermal energy, which increases with temperature. This can be modeled by assigning random velocities to atoms based on the temperature.
 
 - **Equipartition Theorem:**
-  Each degree of freedom in a system at temperature \( T \) has an average kinetic energy of:
-  \[
-  \langle E_k \rangle = \frac{1}{2} k_B T
-  \]
-  where \( k_B \) is the Boltzmann constant.
+<p align="center">
+  <img src="https://github.com/Rishit-katiyar/crystal_lattice_simulation/assets/167756997/1ce88d80-f99c-434d-806b-68dd9f320955" alt="Screenshot">
+</p>
+
 
 #### 5. Phonons and Temperature Effects
 Phonons are quantized vibrations in a crystal lattice. They play a significant role in thermal conductivity and specific heat capacity. In this simulation, the thermal effects on lattice vibrations are included by adjusting the velocities of atoms based on temperature.
