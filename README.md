@@ -1,6 +1,5 @@
 # Crystal Lattice Simulation 📊💎
 
-
 Welcome to the **Crystal Lattice Simulation** project! This project simulates crystal lattice vibrations, including thermal motion and phonon dynamics, using the Crystal programming language and visualizes the results using CrSFML.
 
 ## Table of Contents 📚
